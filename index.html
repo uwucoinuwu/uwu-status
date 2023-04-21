@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Node Status Web App</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">UWU NETWORK STATUS</h1>
+    <div class="row">
+      <div class="col-md-4 col-sm-12">
+        <div class="info-box">
+          <h4>Height:</h4>
+          <p id="height"></p>
+        </div>
+        <div class="info-box">
+          <h4>tx_count:</h4>
+          <p id="tx_count"></p>
+        </div>
+        <div class="info-box">
+          <h4>last_known_block_index:</h4>
+          <p id="last_known_block_index"></p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <div class="info-box">
+          <h4>Difficulty:</h4>
+          <p id="difficulty"></p>
+        </div>
+        <div class="info-box">
+          <h4>tx_pool_size:</h4>
+          <p id="tx_pool_size"></p>
+        </div>
+        <div class="info-box">
+          <h4>network_height:</h4>
+          <p id="network_height"></p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <div class="info-box">
+          <h4>hashrate:</h4>
+          <p id="hashrate"></p>
+        </div>
+        <div class="info-box">
+          <h4>status:</h4>
+          <p id="status"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
