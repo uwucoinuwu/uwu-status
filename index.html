@@ -5,11 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles.css">
-  <title>Node Status Web App</title>
+  <title>UWU NETWORK STATUS</title>
 </head>
 <body>
   <div class="container">
-    <h1 class="title">UWU NETWORK STATUS</h1>
+    <h1 class="text-center my-4 title">UWU NETWORK STATUS</h1>
+    <div class="text-center mb-4">
+      <label for="auto-refresh">Auto-refresh:</label>
+      <input type="checkbox" id="auto-refresh" checked>
+    </div>
     <div class="row">
       <div class="col-md-4 col-sm-12">
         <div class="info-box">
@@ -47,6 +51,10 @@
         <div class="info-box">
           <h4>status:</h4>
           <p id="status"></p>
+        </div>
+        <div class="info-box">
+          <h4>alt_blocks_count:</h4>
+          <p id="alt_blocks_count"></p>
         </div>
       </div>
     </div>
